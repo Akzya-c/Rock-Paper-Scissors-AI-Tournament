@@ -13,8 +13,8 @@ def rps_tournament():
 
     for round_no in range(1, rounds + 1):
         print(f"\nRound {round_no}")
-
         player = input("Your move: ").lower()
+        
         if player not in choices:
             print("Invalid move. Try again.")
             continue
